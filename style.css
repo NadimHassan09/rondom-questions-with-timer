@@ -1,0 +1,15 @@
+  body { font-family: Arial, sans-serif; padding: 20px; }
+    #timer { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+    #question { margin: 20px 0; font-weight: bold; }
+    .option {
+      display: block;
+      margin: 8px 0;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .option:hover { background: #f0f0f0; }
+    #feedback { margin-top: 10px; font-weight: bold; }
+    #score { margin-top: 20px; font-size: 18px; font-weight: bold; }
+    #nextBtn { margin-top: 15px; padding: 8px 15px; }
